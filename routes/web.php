@@ -37,7 +37,6 @@ Route::get('shop-detail',function(){
     return view('shop-details');
 });
 
-
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
