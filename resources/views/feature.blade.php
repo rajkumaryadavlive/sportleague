@@ -3,6 +3,7 @@
 @section('content')
 
   
+
 <!--// SubHeader \\-->
 <div class="sportsmagazine-subheader">
             <span class="subheader-transparent"></span>
