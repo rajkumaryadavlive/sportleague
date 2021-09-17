@@ -17,6 +17,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('feature', function () {
+    return view('feature');
+});
+
+Route::get('player',function(){
+    return view('player');
+});
+
+Route::get('blog-list',function(){
+    return view('blog-list');
+});
+
+Route::get('blog-detail',function(){
+    return view('blog-details');
+});
+
+Route::get('shop-detail',function(){
+    return view('shop-details');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
